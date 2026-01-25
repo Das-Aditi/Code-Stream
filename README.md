@@ -5,7 +5,7 @@ Summer Project focused on making a system where the coder can solve and see the 
 
 The platform enables users to write and execute code in a browser-based editor while receiving real-time feedback. Code submissions are securely executed in isolated environments and evaluated against predefined test cases. Administrators can manage users, problems, and test cases through a dedicated backend interface.
 
-![alt text](<resume overview.png>)
+![alt text](<Overview.png>)
 
 This project is inspired by real-world coding platforms and emphasizes clean architecture, security, and scalability.
 
