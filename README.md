@@ -61,6 +61,20 @@ This project demonstrates practical experience in:
 - Containerized execution
 - End-to-end software development lifecycle
 
+# How to Start the Project :-
+
+## FastAPI (from Backend/fastapi/):
+bashpip install fastapi uvicorn pymongo
+uvicorn main:app --reload --port 8000
+
+## MongoDB or via Docker :
+docker run -d -p 27017:27017 mongo
+
+## Django (from Backend/core/):
+pip install django
+python manage.py migrate
+python manage.py runserver 8001
+
 ## 📌 Status
 
 This project is under active development and is designed to be extended for production-scale use.
