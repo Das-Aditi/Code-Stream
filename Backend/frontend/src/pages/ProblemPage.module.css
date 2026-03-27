@@ -1,0 +1,106 @@
+    .page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    }
+
+    .errorBanner {
+    background: var(--red-dim);
+    color: var(--red);
+    border-bottom: 1px solid var(--red);
+    padding: 10px 24px;
+    font-size: 13px;
+    font-weight: 500;
+    flex-shrink: 0;
+    }
+
+    .body {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 220px 1fr 1.4fr;
+    overflow: hidden;
+    min-height: 0;
+    }
+
+    /* Sidebar */
+    .sidebar {
+    background: var(--bg-secondary);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    }
+
+    .sidebarHeader {
+    padding: 14px 16px 10px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+    }
+
+    .sidebarEmpty {
+    padding: 20px 16px;
+    font-size: 12px;
+    color: var(--text-muted);
+    line-height: 1.7;
+    }
+
+    .problemItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 12px 16px;
+    background: transparent;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--border);
+    text-align: left;
+    transition: background var(--transition), color var(--transition);
+    width: 100%;
+    }
+
+    .problemItem:hover,
+    .problemItem[data-active="true"] {
+    background: var(--accent-dim);
+    color: var(--text-primary);
+    }
+
+    .problemItem[data-active="true"] {
+    border-left: 2px solid var(--accent);
+    padding-left: 14px;
+    }
+
+    .problemTitle {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.4;
+    }
+
+    .problemDiff {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    }
+
+    .problemDiff[data-diff="Easy"]   { color: var(--green); }
+    .problemDiff[data-diff="Medium"] { color: var(--amber); }
+    .problemDiff[data-diff="Hard"]   { color: var(--red); }
+
+    /* Panels */
+    .descPane {
+    border-right: 1px solid var(--border);
+    overflow: hidden;
+    background: var(--bg-primary);
+    }
+
+    .editorPane {
+    overflow: hidden;
+    background: var(--bg-primary);
+    display: flex;
+    flex-direction: column;
+    }
