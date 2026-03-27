@@ -1,5 +1,5 @@
-from docker_runner import run_code
-
+# from docker_runner import run_code
+from services.docker_runner import run_code
 
 def normalize(output: str) -> str:
     """Strip trailing whitespace from each line and remove blank trailing lines."""
