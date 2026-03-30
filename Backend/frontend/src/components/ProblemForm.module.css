@@ -1,0 +1,236 @@
+    .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+
+    .field {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    flex: 1;
+    }
+
+    .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    }
+
+    .label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    letter-spacing: 0.3px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    }
+
+    .req { color: var(--red); }
+
+    .input, .textarea {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text-primary);
+    font-family: var(--font-ui);
+    font-size: 13px;
+    padding: 9px 12px;
+    transition: border-color var(--transition);
+    resize: vertical;
+    width: 100%;
+    }
+
+    .input:focus, .textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+    }
+
+    .input[data-error="true"],
+    .textarea[data-error="true"] {
+    border-color: var(--red);
+    }
+
+    .input::placeholder, .textarea::placeholder {
+    color: var(--text-muted);
+    }
+
+    .error {
+    font-size: 11px;
+    color: var(--red);
+    font-weight: 500;
+    }
+
+    /* Difficulty buttons */
+    .diffGroup {
+    display: flex;
+    gap: 8px;
+    }
+
+    .diffBtn {
+    padding: 6px 18px;
+    border-radius: var(--radius);
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid var(--border);
+    background: var(--bg-tertiary);
+    color: var(--text-muted);
+    transition: all var(--transition);
+    }
+
+    .diffBtn[data-active="true"][data-diff="Easy"]   { background: var(--green-dim); color: var(--green); border-color: var(--green); }
+    .diffBtn[data-active="true"][data-diff="Medium"] { background: var(--amber-dim); color: var(--amber); border-color: var(--amber); }
+    .diffBtn[data-active="true"][data-diff="Hard"]   { background: var(--red-dim);   color: var(--red);   border-color: var(--red); }
+    .diffBtn:hover { border-color: var(--border-bright); color: var(--text-secondary); }
+
+    /* Test cases */
+    .tcHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+    .tcCount {
+    background: var(--accent-dim);
+    color: var(--accent);
+    font-size: 11px;
+    padding: 1px 7px;
+    border-radius: 99px;
+    font-weight: 700;
+    }
+
+    .tcList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+
+    .tcItem {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 12px;
+    }
+
+    .tcIndex {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+    padding-top: 4px;
+    min-width: 20px;
+    }
+
+    .tcFields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    flex: 1;
+    }
+
+    .tcField {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    }
+
+    .tcLabel {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    letter-spacing: 0.3px;
+    }
+
+    .tcInput {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text-primary);
+    font-family: var(--font-mono);
+    font-size: 12px;
+    padding: 7px 10px;
+    resize: vertical;
+    transition: border-color var(--transition);
+    width: 100%;
+    }
+    .tcInput:focus { outline: none; border-color: var(--accent); }
+    .tcInput[data-error="true"] { border-color: var(--red); }
+    .tcInput::placeholder { color: var(--text-muted); }
+
+    .removeTc {
+    background: transparent;
+    color: var(--text-muted);
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    transition: all var(--transition);
+    flex-shrink: 0;
+    margin-top: 2px;
+    }
+    .removeTc:hover { background: var(--red-dim); color: var(--red); }
+
+    .addTcBtn {
+    background: transparent;
+    border: 1px dashed var(--border-bright);
+    color: var(--text-secondary);
+    padding: 8px;
+    border-radius: var(--radius);
+    font-size: 12px;
+    font-weight: 500;
+    width: 100%;
+    transition: all var(--transition);
+    margin-top: 4px;
+    }
+    .addTcBtn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+
+    /* Form actions */
+    .formActions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border);
+    margin-top: 4px;
+    }
+
+    .cancelBtn {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    padding: 9px 20px;
+    border-radius: var(--radius);
+    font-size: 13px;
+    font-weight: 500;
+    transition: all var(--transition);
+    }
+    .cancelBtn:hover { background: var(--bg-hover); color: var(--text-primary); }
+
+    .submitBtn {
+    background: var(--accent);
+    color: #fff;
+    padding: 9px 22px;
+    border-radius: var(--radius);
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background var(--transition), opacity var(--transition);
+    }
+    .submitBtn:hover:not(:disabled) { background: var(--accent-hover); }
+    .submitBtn:disabled { opacity: 0.55; cursor: not-allowed; }
+
+    .spinner {
+    width: 12px;
+    height: 12px;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+    display: inline-block;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
