@@ -31,6 +31,48 @@
 
     .langSelect:hover { border-color: var(--border-bright); }
 
+    .toolbarRight {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    }
+
+    .traceBtn {
+    background: var(--amber-dim);
+    color: var(--amber);
+    border: 1px solid var(--amber);
+    padding: 7px 16px;
+    border-radius: var(--radius);
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all var(--transition);
+    }
+    .traceBtn:hover:not(:disabled) { background: var(--amber); color: #fff; }
+    .traceBtn:disabled { opacity: 0.55; cursor: not-allowed; }
+
+    .content {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+    min-height: 0;
+    }
+
+    .editorWrap {
+    overflow: hidden;
+    min-height: 0;
+    transition: flex 0.2s ease;
+    }
+
+    .traceWrap {
+    flex: 1;
+    overflow: hidden;
+    min-height: 0;
+    border-left: 1px solid var(--border);
+    }
+
     .submitBtn {
     background: var(--accent);
     color: #fff;

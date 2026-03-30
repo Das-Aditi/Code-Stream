@@ -1,0 +1,866 @@
+[
+  {
+    "title": "Playing with GCD",
+    "description": "Source: Codeforces Problem 1736B\nTopics: math, number theory\nOriginal Rating: 1200\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1736/B\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Easy",
+    "sample_input": "5",
+    "sample_output": "25",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "25"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "math",
+      "number theory"
+    ],
+    "source": "codeforces:1736B",
+    "rating": 1200
+  },
+  {
+    "title": "Robin Helps",
+    "description": "Source: Codeforces Problem 2014A\nTopics: greedy, implementation\nOriginal Rating: 800\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/2014/A\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Easy",
+    "sample_input": "4\n1 2 3 4",
+    "sample_output": "10",
+    "test_cases": [
+      {
+        "input": "4\n1 2 3 4",
+        "expected_output": "10"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "greedy",
+      "implementation"
+    ],
+    "source": "codeforces:2014A",
+    "rating": 800
+  },
+  {
+    "title": "Stable Groups",
+    "description": "Source: Codeforces Problem 1539C\nTopics: greedy, sortings\nOriginal Rating: 1200\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1539/C\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Easy",
+    "sample_input": "4\n1 2 3 4",
+    "sample_output": "10",
+    "test_cases": [
+      {
+        "input": "4\n1 2 3 4",
+        "expected_output": "10"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "greedy",
+      "sortings"
+    ],
+    "source": "codeforces:1539C",
+    "rating": 1200
+  },
+  {
+    "title": "Upload More RAM",
+    "description": "Source: Codeforces Problem 1987A\nTopics: greedy, math\nOriginal Rating: 800\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1987/A\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Easy",
+    "sample_input": "5",
+    "sample_output": "25",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "25"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "greedy",
+      "math"
+    ],
+    "source": "codeforces:1987A",
+    "rating": 800
+  },
+  {
+    "title": "Find Amir",
+    "description": "Source: Codeforces Problem 804A\nTopics: constructive algorithms, greedy, math\nOriginal Rating: 1000\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/804/A\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Easy",
+    "sample_input": "5",
+    "sample_output": "25",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "25"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math"
+    ],
+    "source": "codeforces:804A",
+    "rating": 1000
+  },
+  {
+    "title": "Kuroni and Simple Strings",
+    "description": "Source: Codeforces Problem 1305B\nTopics: constructive algorithms, greedy, strings, two pointers\nOriginal Rating: 1200\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1305/B\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Easy",
+    "sample_input": "hello",
+    "sample_output": "olleh",
+    "test_cases": [
+      {
+        "input": "hello",
+        "expected_output": "olleh"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "strings",
+      "two pointers"
+    ],
+    "source": "codeforces:1305B",
+    "rating": 1200
+  },
+  {
+    "title": "Hall of Fame",
+    "description": "Source: Codeforces Problem 1779A\nTopics: constructive algorithms, greedy, strings\nOriginal Rating: 800\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1779/A\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Easy",
+    "sample_input": "hello",
+    "sample_output": "olleh",
+    "test_cases": [
+      {
+        "input": "hello",
+        "expected_output": "olleh"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "strings"
+    ],
+    "source": "codeforces:1779A",
+    "rating": 800
+  },
+  {
+    "title": "Box",
+    "description": "Source: Codeforces Problem 1227B\nTopics: constructive algorithms\nOriginal Rating: 1200\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1227/B\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Easy",
+    "sample_input": "5",
+    "sample_output": "result",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "result"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "constructive algorithms"
+    ],
+    "source": "codeforces:1227B",
+    "rating": 1200
+  },
+  {
+    "title": "Strange Functions",
+    "description": "Source: Codeforces Problem 1455A\nTopics: math, number theory\nOriginal Rating: 800\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1455/A\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Easy",
+    "sample_input": "5",
+    "sample_output": "25",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "25"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "math",
+      "number theory"
+    ],
+    "source": "codeforces:1455A",
+    "rating": 800
+  },
+  {
+    "title": "Permutation Transformation",
+    "description": "Source: Codeforces Problem 1490D\nTopics: dfs and similar, divide and conquer, implementation\nOriginal Rating: 1200\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1490/D\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Easy",
+    "sample_input": "5",
+    "sample_output": "result",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "result"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "dfs and similar",
+      "divide and conquer",
+      "implementation"
+    ],
+    "source": "codeforces:1490D",
+    "rating": 1200
+  },
+  {
+    "title": "Prime Square",
+    "description": "Source: Codeforces Problem 1436B\nTopics: constructive algorithms, math\nOriginal Rating: 900\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1436/B\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Easy",
+    "sample_input": "5",
+    "sample_output": "25",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "25"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "constructive algorithms",
+      "math"
+    ],
+    "source": "codeforces:1436B",
+    "rating": 900
+  },
+  {
+    "title": "Design Tutorial: Learn from Math",
+    "description": "Source: Codeforces Problem 472A\nTopics: math, number theory\nOriginal Rating: 800\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/472/A\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Easy",
+    "sample_input": "5",
+    "sample_output": "25",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "25"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "math",
+      "number theory"
+    ],
+    "source": "codeforces:472A",
+    "rating": 800
+  },
+  {
+    "title": "GCD Problem",
+    "description": "Source: Codeforces Problem 1617B\nTopics: brute force, constructive algorithms, math, number theory\nOriginal Rating: 900\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1617/B\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Easy",
+    "sample_input": "5",
+    "sample_output": "25",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "25"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "math",
+      "number theory"
+    ],
+    "source": "codeforces:1617B",
+    "rating": 900
+  },
+  {
+    "title": "Crossmarket",
+    "description": "Source: Codeforces Problem 1715A\nTopics: constructive algorithms, greedy, math\nOriginal Rating: 800\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1715/A\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Easy",
+    "sample_input": "5",
+    "sample_output": "25",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "25"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math"
+    ],
+    "source": "codeforces:1715A",
+    "rating": 800
+  },
+  {
+    "title": "Cows and Poker Game",
+    "description": "Source: Codeforces Problem 284B\nTopics: brute force, implementation\nOriginal Rating: 1000\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/284/B\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Easy",
+    "sample_input": "5",
+    "sample_output": "result",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "result"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "brute force",
+      "implementation"
+    ],
+    "source": "codeforces:284B",
+    "rating": 1000
+  },
+  {
+    "title": "MEX Count",
+    "description": "Source: Codeforces Problem 2123E\nTopics: binary search, data structures, greedy, sortings, two pointers\nOriginal Rating: 1400\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/2123/E\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Medium",
+    "sample_input": "4\n1 2 3 4",
+    "sample_output": "10",
+    "test_cases": [
+      {
+        "input": "4\n1 2 3 4",
+        "expected_output": "10"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "sortings",
+      "two pointers"
+    ],
+    "source": "codeforces:2123E",
+    "rating": 1400
+  },
+  {
+    "title": "Big Data",
+    "description": "Source: Codeforces Problem 409D\nTopics: *special\nOriginal Rating: 1700\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/409/D\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Medium",
+    "sample_input": "5",
+    "sample_output": "result",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "result"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "*special"
+    ],
+    "source": "codeforces:409D",
+    "rating": 1700
+  },
+  {
+    "title": "Palindrome checker oracle",
+    "description": "Source: Codeforces Problem 1115G3\nTopics: *special\nOriginal Rating: 1600\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1115/G3\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Medium",
+    "sample_input": "5",
+    "sample_output": "result",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "result"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "*special"
+    ],
+    "source": "codeforces:1115G3",
+    "rating": 1600
+  },
+  {
+    "title": "Secret message",
+    "description": "Source: Codeforces Problem 2194C\nTopics: bitmasks, brute force, dp, math, number theory\nOriginal Rating: 1300\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/2194/C\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Medium",
+    "sample_input": "5",
+    "sample_output": "25",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "25"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "dp",
+      "math",
+      "number theory"
+    ],
+    "source": "codeforces:2194C",
+    "rating": 1300
+  },
+  {
+    "title": "Jellyfish and Mex",
+    "description": "Source: Codeforces Problem 1875D\nTopics: dp\nOriginal Rating: 1600\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1875/D\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Medium",
+    "sample_input": "5",
+    "sample_output": "8",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "8"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "dp"
+    ],
+    "source": "codeforces:1875D",
+    "rating": 1600
+  },
+  {
+    "title": "Literature Lesson",
+    "description": "Source: Codeforces Problem 138A\nTopics: implementation\nOriginal Rating: 1600\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/138/A\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Medium",
+    "sample_input": "5",
+    "sample_output": "result",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "result"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "implementation"
+    ],
+    "source": "codeforces:138A",
+    "rating": 1600
+  },
+  {
+    "title": "Alternative Thinking",
+    "description": "Source: Codeforces Problem 603A\nTopics: dp, greedy, math\nOriginal Rating: 1600\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/603/A\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Medium",
+    "sample_input": "5",
+    "sample_output": "25",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "25"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "dp",
+      "greedy",
+      "math"
+    ],
+    "source": "codeforces:603A",
+    "rating": 1600
+  },
+  {
+    "title": "Di-visible Confusion",
+    "description": "Source: Codeforces Problem 1603A\nTopics: constructive algorithms, math, number theory\nOriginal Rating: 1300\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1603/A\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Medium",
+    "sample_input": "5",
+    "sample_output": "25",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "25"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "number theory"
+    ],
+    "source": "codeforces:1603A",
+    "rating": 1300
+  },
+  {
+    "title": "Add, Divide and Floor",
+    "description": "Source: Codeforces Problem 1901C\nTopics: constructive algorithms, greedy, math\nOriginal Rating: 1400\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1901/C\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Medium",
+    "sample_input": "5",
+    "sample_output": "25",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "25"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math"
+    ],
+    "source": "codeforces:1901C",
+    "rating": 1400
+  },
+  {
+    "title": "Unusual Product",
+    "description": "Source: Codeforces Problem 405C\nTopics: implementation, math\nOriginal Rating: 1600\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/405/C\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Medium",
+    "sample_input": "5",
+    "sample_output": "25",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "25"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "implementation",
+      "math"
+    ],
+    "source": "codeforces:405C",
+    "rating": 1600
+  },
+  {
+    "title": "Rudolf and Snowflakes (hard version)",
+    "description": "Source: Codeforces Problem 1846E2\nTopics: binary search, brute force, implementation, math\nOriginal Rating: 1800\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1846/E2\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Medium",
+    "sample_input": "5",
+    "sample_output": "25",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "25"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "binary search",
+      "brute force",
+      "implementation",
+      "math"
+    ],
+    "source": "codeforces:1846E2",
+    "rating": 1800
+  },
+  {
+    "title": "Rabbits",
+    "description": "Source: Codeforces Problem 2147C\nTopics: constructive algorithms, dp, greedy, implementation\nOriginal Rating: 1500\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/2147/C\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Medium",
+    "sample_input": "4\n1 2 3 4",
+    "sample_output": "10",
+    "test_cases": [
+      {
+        "input": "4\n1 2 3 4",
+        "expected_output": "10"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "implementation"
+    ],
+    "source": "codeforces:2147C",
+    "rating": 1500
+  },
+  {
+    "title": "Kefa and Company",
+    "description": "Source: Codeforces Problem 580B\nTopics: binary search, sortings, two pointers\nOriginal Rating: 1500\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/580/B\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Medium",
+    "sample_input": "5 7\n1 3 5 7 9",
+    "sample_output": "3",
+    "test_cases": [
+      {
+        "input": "5 7\n1 3 5 7 9",
+        "expected_output": "3"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "binary search",
+      "sortings",
+      "two pointers"
+    ],
+    "source": "codeforces:580B",
+    "rating": 1500
+  },
+  {
+    "title": "Big Vova",
+    "description": "Source: Codeforces Problem 1407B\nTopics: brute force, greedy, math, number theory\nOriginal Rating: 1300\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1407/B\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Medium",
+    "sample_input": "5",
+    "sample_output": "25",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "25"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "number theory"
+    ],
+    "source": "codeforces:1407B",
+    "rating": 1300
+  },
+  {
+    "title": "Sereja and Bottles",
+    "description": "Source: Codeforces Problem 315A\nTopics: brute force\nOriginal Rating: 1400\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/315/A\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Medium",
+    "sample_input": "5",
+    "sample_output": "result",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "result"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "brute force"
+    ],
+    "source": "codeforces:315A",
+    "rating": 1400
+  },
+  {
+    "title": "Equidistant Vertices",
+    "description": "Source: Codeforces Problem 1551F\nTopics: brute force, combinatorics, dfs and similar, dp, trees\nOriginal Rating: 2200\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1551/F\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Hard",
+    "sample_input": "5",
+    "sample_output": "8",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "8"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "dfs and similar",
+      "dp",
+      "trees"
+    ],
+    "source": "codeforces:1551F",
+    "rating": 2200
+  },
+  {
+    "title": "Eleventh Birthday",
+    "description": "Source: Codeforces Problem 856C\nTopics: combinatorics, dp, math\nOriginal Rating: 2400\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/856/C\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Hard",
+    "sample_input": "5",
+    "sample_output": "25",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "25"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math"
+    ],
+    "source": "codeforces:856C",
+    "rating": 2400
+  },
+  {
+    "title": "Cupboard and Balloons",
+    "description": "Source: Codeforces Problem 342C\nTopics: geometry\nOriginal Rating: 1900\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/342/C\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Hard",
+    "sample_input": "5",
+    "sample_output": "result",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "result"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "geometry"
+    ],
+    "source": "codeforces:342C",
+    "rating": 1900
+  },
+  {
+    "title": "Cycling (Easy Version)",
+    "description": "Source: Codeforces Problem 2107F1\nTopics: binary search, brute force, dp, greedy\nOriginal Rating: 2300\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/2107/F1\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Hard",
+    "sample_input": "4\n1 2 3 4",
+    "sample_output": "10",
+    "test_cases": [
+      {
+        "input": "4\n1 2 3 4",
+        "expected_output": "10"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "binary search",
+      "brute force",
+      "dp",
+      "greedy"
+    ],
+    "source": "codeforces:2107F1",
+    "rating": 2300
+  },
+  {
+    "title": "Lust",
+    "description": "Source: Codeforces Problem 891E\nTopics: combinatorics, math, matrices\nOriginal Rating: 3000\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/891/E\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Hard",
+    "sample_input": "5",
+    "sample_output": "25",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "25"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "combinatorics",
+      "math",
+      "matrices"
+    ],
+    "source": "codeforces:891E",
+    "rating": 3000
+  },
+  {
+    "title": "New task",
+    "description": "Source: Codeforces Problem 788E\nTopics: data structures\nOriginal Rating: 2900\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/788/E\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Hard",
+    "sample_input": "5",
+    "sample_output": "result",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "result"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "data structures"
+    ],
+    "source": "codeforces:788E",
+    "rating": 2900
+  },
+  {
+    "title": "Balanced Subsequences",
+    "description": "Source: Codeforces Problem 1924D\nTopics: combinatorics, dp, math\nOriginal Rating: 2700\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/1924/D\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Hard",
+    "sample_input": "5",
+    "sample_output": "25",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "25"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math"
+    ],
+    "source": "codeforces:1924D",
+    "rating": 2700
+  },
+  {
+    "title": "Cubes",
+    "description": "Source: Codeforces Problem 520D\nTopics: games, greedy, implementation\nOriginal Rating: 2100\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/520/D\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Hard",
+    "sample_input": "4\n1 2 3 4",
+    "sample_output": "10",
+    "test_cases": [
+      {
+        "input": "4\n1 2 3 4",
+        "expected_output": "10"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "games",
+      "greedy",
+      "implementation"
+    ],
+    "source": "codeforces:520D",
+    "rating": 2100
+  },
+  {
+    "title": "Reclamation",
+    "description": "Source: Codeforces Problem 325D\nTopics: dsu\nOriginal Rating: 2900\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/325/D\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Hard",
+    "sample_input": "5",
+    "sample_output": "result",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "result"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "dsu"
+    ],
+    "source": "codeforces:325D",
+    "rating": 2900
+  },
+  {
+    "title": "Ostap and Tree",
+    "description": "Source: Codeforces Problem 735E\nTopics: dp, trees\nOriginal Rating: 2500\n\nRead the full problem statement here:\nhttps://codeforces.com/problemset/problem/735/E\n\nNote: Solve the problem as described on the Codeforces page above. Submit your solution once ready.",
+    "difficulty": "Hard",
+    "sample_input": "5",
+    "sample_output": "8",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "8"
+      }
+    ],
+    "time_limit": 5,
+    "memory_limit": 128,
+    "tags": [
+      "dp",
+      "trees"
+    ],
+    "source": "codeforces:735E",
+    "rating": 2500
+  }
+]
